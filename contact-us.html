@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+	<head>
+		<meta name="brown beers, brown beer dinners, beer and food pairing">
+		<meta name="description">
+
+		<title>Contact Us | Craft Beer Night</title>
+
+		<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic' rel='stylesheet' type='text/css'>
+
+	</head>
+
+	<body>
+		<header class="header contact-us">
+			<!-- navigation will be sticky, as user scrolls down it changes the hover border to the section you're on -->
+			<nav>
+				<div class="row">
+	                <a href="index.html"><img src="images/cbn-logo.png" alt="Craft Beer Night" class="logo"></a>
+	                <ul class="main-nav">
+	                    <li><a href="index.html#about">About</a></li>
+	                    <li><a href="index.html#beer">Beer</a></li>
+	                    <li><a href="index.html#food">Food</a></li>
+	                    <li><a href="index.html#themes">Themes</a></li>
+	                    <li><a href="blog.html">Blog</a></li>
+	                </ul>
+            	</div>
+            	<div class="mbl-nav">
+					&#9776;
+				</div>
+            </nav>
+
+            <div id="dropdown">
+                <ul>
+                   <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#beer">Beer</a></li>
+                    <li><a href="index.html#food">Food</a></li>
+                    <li><a href="index.html#themes">Themes</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+
+			<!-- will try and make an arrow upon scroll to encourage user to scroll down -->
+
+		</header>
+
+		<section class"contact-us-section">
+
+			<div class="row">
+
+				<h2>Contact Us</h2>
+
+				<p class="contact-text">Get in touch with us or sign up for our exclusive CBN members area to get access to hidden blog posts!</p>
+
+				<div class="form-row">
+					<form id="contact-us-form">
+						<div id="errorMessage" class="error hide"></div>
+						<p>
+							<label for="firstname">First Name:</label>
+							<input type="text" name="firstname" placeholder="First Name"/>
+
+							<label for="lastname">Last Name:</label>
+							<input type="text" name="lastname" placeholder="Last Name"/>
+						</p>
+
+						<p>
+							<label for="username">Create a Username:</label>
+							<input type="text" name="username" placeholder="Username"/>
+
+							<label for="password">Create a Password:</label>
+							<input type="password" name="password"/>
+
+						</p>
+
+						<p>
+							<input type="email" name="emailAddress" placeholder="Email@email.com">
+
+						<p>
+							<label for="beers">Favorite Types of Beer:</label>
+							<input type="checkbox" name="beers" value="lagers"/>
+							<label for="beers">Lagers</label>
+							<input type="checkbox" name="beers" value="pilsners"/>
+							<label for="beers">Pilsners</label>
+							<input type="checkbox" name="beers" value="stouts"/>
+							<label for="beers">Stouts</label>
+							<input type="checkbox" name="beers" value="browns"/>
+							<label for="beers">Browns</label>
+						</p>
+
+						<p>
+							<label for="additional-info">Comments:</label>
+							<textarea name="additional-info" rows="5" cols="90">Enter your message here...
+							</textarea>
+
+						</p>
+
+						<p>
+							<input type="submit" value="Submit" name="submit"/>
+						</p>
+
+						<div id="successMessage" class="success hide"></div>
+
+					</form>
+				</div>
+
+			</div>
+
+		</section>
+
+
+		<footer class="clear">
+			<div class="row">
+
+                <ul class="footer-nav">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+
+				<ul class="social-links">
+					<li><i class="ion-social-facebook facebook"></i></li>
+					<li><i class="ion-social-twitter twitter"></i></li>
+					<li><i class="ion-social-instagram instagram"></i></li>
+				</ul>
+
+			</div>
+
+			<div class="row">
+
+				<p>&copy Craft Beer Night. All rights reserved.</p>
+
+			</div>
+
+		</footer>
+
+		<script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+
+</html>
