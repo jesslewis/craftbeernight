@@ -960,7 +960,7 @@ footer p {
     .tabs ul:hover {
         background: #fff;
     }
-    .tabs ul:hover li {
+    .tabs ul:active li {
         display: block;
         margin: 0 0 5px;
     }
@@ -1058,6 +1058,12 @@ footer p {
 @media screen and (max-width: 480px) { 
     html {
         font-size: 16px;
+    }
+    .home {
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        background-attachment: fixed;
     }
     .row {
         max-width: 460px;
