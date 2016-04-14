@@ -1060,7 +1060,10 @@ footer p {
         font-size: 16px;
     }
     .home {
-        background: url(../images/beer-cheers-small.png) no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../images/beer-cheers-small.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
     .row {
         max-width: 460px;
