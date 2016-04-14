@@ -1060,9 +1060,7 @@ footer p {
         font-size: 16px;
     }
     .home {
-        background-color: #000;
-        max-height: 600px;
-        width: 100%;
+        display: none;
     }
     .row {
         max-width: 460px;
