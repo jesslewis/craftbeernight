@@ -1062,9 +1062,9 @@ footer p {
     .home {
         background-size: cover;
         background-position: center;
-        max-height: 100%;
-   /*     background-attachment: fixed;
-*/    }
+        max-height: 600px;
+        background-attachment: fixed;
+    }
     .row {
         max-width: 460px;
     }
