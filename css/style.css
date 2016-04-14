@@ -987,6 +987,7 @@ footer p {
     
     .beer-food-img {
         height: 50vh;
+        width: 100%;
 
     } 
 
@@ -1061,7 +1062,7 @@ footer p {
     }
     .home {
         background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../images/beer-cheers-small.png) no-repeat;
-        background-size: cover;
+        background-size: cover, cover;
         background-position: center;
         background-attachment: fixed;
     }
@@ -1226,6 +1227,13 @@ footer p {
     }
     #contact-us-form p:last-of-type {
         margin-bottom: 0;
+    }
+
+/* --------- Footer --------- */
+    
+    .social-links {
+        display: block;
+    }
     }
        
 }
