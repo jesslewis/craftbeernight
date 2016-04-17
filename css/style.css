@@ -102,6 +102,9 @@ h3 {
 h4 {
     margin-bottom: 20px;
 }
+h5 {
+    font-weight: 400;
+}
 
 /* ---------- Bold ----------- */
 
@@ -115,6 +118,9 @@ span {
 a {
     text-decoration: none;
     color: inherit;
+}
+a:hover {
+    color: #e67e22;
 }
 
 /* ---------- Buttons ---------- */
@@ -608,7 +614,10 @@ aside>p {
 .blog-post {
     background: #000;
 }
-
+.similar-posts {
+    margin: 0 0 80px 0;
+    line-height: 120%;
+}
 
 /** -------------------------------
 4. SECTION - CONTACT US
@@ -620,6 +629,10 @@ aside>p {
     background-position: center;
     height: 50vh;
     background-attachment: fixed;
+}
+.form-row {
+    width: 700px;
+    margin: 0 auto;
 }
 input, 
 textarea {
@@ -649,10 +662,6 @@ label[for="beers"] {
 label[for="additional-info"] {
     vertical-align: top;
     line-height: 85px;
-}
-.form-row {
-    margin: 0 auto;
-    width: 700px;
 }
 .contact-text {
     text-align: center;
@@ -840,6 +849,9 @@ footer p {
 
     .btn-read-more {
         width: 30%;
+    }
+    .similar-posts {
+        margin: 0 0 80px 10px;
     } 
 
 /* ------- Theme Page ------- */
@@ -866,6 +878,9 @@ footer p {
 @media screen and (max-width: 767px) { 
     html {
         font-size: 17px;
+    }
+    section {
+        padding: 40px 0;
     }
     .row {
         max-width: 747px;
@@ -1032,11 +1047,17 @@ footer p {
     .rt-col {
         width: 28%;
     }
+    article p {
+        padding: 0 100px 30px 5px;
+    }
 
 /* ------- Blog Page ------- */   
 
     .btn-read-more {
         width: 30%;
+    } 
+    .similar-posts {
+        margin: 0 0 100px 10px;
     } 
 
 /* ------- Theme Page ------- */
@@ -1060,18 +1081,14 @@ footer p {
     html {
         font-size: 16px;
     }
-    .home {
-        background: url(../images/beer-cheers-small.png) no-repeat;
-    }
-    .beer-food-img {
-        background: url(../images/beer-burger.jpg) no-repeat;
-    }
-    .beer-food-img {
-        background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../images/beer-burger.jpg) no-repeat;
-        background-size: contain;
+    section {
+        padding: 30px 0;
     }
     .row {
         max-width: 460px;
+    }
+    .row-post {
+        margin: 0 10px;
     }
     .mbl-nav {
         display: block;
@@ -1181,6 +1198,9 @@ footer p {
         width: 100%;
         margin: 0;
     }
+    .rt-col {
+        display: none;
+    }
     article img {
         width: 100%;
     }
@@ -1195,6 +1215,9 @@ footer p {
     .btn-read-more {
         width: 50%;
         margin-left: 10px;
+    }
+    .similar-posts {
+        margin: 0 0 20px 5px;
     }
 
 /* --------- Theme Page --------- */
@@ -1237,7 +1260,8 @@ footer p {
     
     .social-links {
         display: block;
+        padding-left: 20px;
     }
-    }
-       
+    
 }
+
