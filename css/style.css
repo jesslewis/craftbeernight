@@ -1066,6 +1066,10 @@ footer p {
     .beer-food-img {
         background: url(../images/beer-burger.jpg) no-repeat;
     }
+    .beer-food-img {
+        background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../images/beer-burger.jpg) no-repeat;
+        background-size: contain;
+    }
     .row {
         max-width: 460px;
     }
